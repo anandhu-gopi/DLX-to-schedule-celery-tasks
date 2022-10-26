@@ -14,5 +14,5 @@ if __name__ == "__main__":
         # and we will be able to achieve delayed task delivery.
         queue=queues_for_delayed_task_delivery.temp_queue_for_delayed_delivery,
         # setting TTL of 300 sec (5 min) for task
-        expiration=10,
+        expiration=300,
     )
